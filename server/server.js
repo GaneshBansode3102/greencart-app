@@ -40,7 +40,7 @@ startServer();
 /* -------------------- CORS CONFIG -------------------- */
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://greencart-app-av9z.vercel.app/"
+  "https://greencart-app-av9z.vercel.app"
 ];
 
 app.post('./stripe', express.raw({ type: 'application/json' }), stripWebhooks)
