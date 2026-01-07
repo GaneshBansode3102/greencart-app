@@ -12,12 +12,12 @@ import ProductDetails from './Pages/ProductDetails'
 import Cart from './Pages/Cart'
 import AddAddress from './Pages/AddAddress'
 import MyOrders from './Pages/MyOrders'
-import SellerLogin from './compoenets/seller/sellerLogin'
-import SellerLayout from './Pages/seller/sellerLayout'
+import SellerLogin from './compoenets/seller/SellerLogin'
+import SellerLayout from './Pages/seller/SellerLayout'
 import AddProducts from './Pages/seller/AddProducts'
 import ProductList from './Pages/seller/ProductList'
-import Orders from './Pages/seller/orders'
-import Loading from './compoenets/loading'
+import Orders from './Pages/seller/Orders'
+import Loading from './compoenets/Loading'
 
 const App = () => {
   const isSellerPath = useLocation().pathname.includes("seller")
