@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './compoenets/Navbar'
 import { Route, Routes, useLocation } from 'react-router-dom'
-import Home from './Pages/home'
+import Home from './Pages/Home'
 import { Toaster } from 'react-hot-toast'
 import Footer from './compoenets/Footer'
 import { useAppContext } from './context/AppContext'
