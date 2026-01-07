@@ -1,0 +1,12 @@
+import express from "express";
+import { isSelllerAuth, sellerLogin, sellerlogout } from "../controllers/sellerControllers.js";
+import authSeller from "../middlewares/authSeller.js";
+
+const sellerRouter = express.Router();
+sellerRouter.post('/login',sellerLogin)
+sellerRouter.get('/is-auth',authSeller,isSelllerAuth)
+sellerRouter.get('/logout',sellerlogout)
+
+
+export default sellerRouter;
+
